@@ -13,7 +13,7 @@ type Props = {
 export default function Button({ buttonLink, buttonText, className }: Props) {
   const router = useRouter();
   const navigate = () => {
-    window.location.href="https://cresolution0128.vercel.app/";
+    // window.location.href="https://cresolution0128.vercel.app/";
   }
   return (
     <div
